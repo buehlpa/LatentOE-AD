@@ -4,7 +4,7 @@ The experiments here are an attempt to reproduce the results from https://arxiv.
 
 Results are only obtained on the fmnist / cifar10 dataset
 
-This Repository is not maintained!
+This Repository is **not maintained!**
 
 most of the changes to the original repo are in /Additional_CODE_BULE 
 
