@@ -9,9 +9,13 @@ Results are only obtained on the fmnist / cifar10 dataset
 This Repository is not maintained!
 
 most of the changes to the original repo are in /Additional_CODE_BULE 
+
  /loe_utils             # contains the helperfunctions for the saving of pickle files in the original LOE implementation
+ 
  / plots               # plots of the results
+ 
  /training_scripts      # contains bash script to run multiple runs of the LOE blind etc of ntl
+ 
  /utils                 # contains helper functions and model for the Added code from the project work
                      
  evaluating_models.ipynb  # compares different models from project work and BOSCH LOE
