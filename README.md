@@ -1,7 +1,5 @@
 #  Latent Outlier Exposure for Anomaly Detection with Contaminated Data (LOE)
 
-This code repo refers to the repository 
-
 The experiments here are an attempt to reproduce the results from https://arxiv.org/abs/2202.08088. and stresstest the NTL https://github.com/boschresearch/NeuTraL-AD. Model. For the original code go to to: https://github.com/boschresearch/LatentOE-AD. This repo contains altered code from the original implementation, with stresstests on robustness and  lowering the amount of data the model is trained on.
 
 Results are only obtained on the fmnist / cifar10 dataset
