@@ -8,37 +8,34 @@ Results are only obtained on the fmnist / cifar10 dataset
 
 This Repository is not maintained!
 
-Additional_CODE_BULE 
-                     -  loe_utils             # contains the helperfunctions for the saving of pickle files in the original LOE implementation
-                     -  plots                 # plots of the results
-                     -  training_scripts      # contains bash script to run multiple runs of the LOE blind etc of ntl
-                     -  utils                 # contains helperfunctions and model for the Added code from the VT
-                     -
-                     ...                      
-                     evaluating_models.ipynb  # compares different models from VT and BOSCH LOE
-                     inspecting_dataset.ipynb # inspecting the features with dimensionalty reduction method and rescaling of the features
-                     ...
-                     workNB...                # these  notebooks are made for working on differnet toppics,
+most of the changes to the original repo are in /Additional_CODE_BULE 
+ /loe_utils             # contains the helperfunctions for the saving of pickle files in the original LOE implementation
+ / plots               # plots of the results
+ /training_scripts      # contains bash script to run multiple runs of the LOE blind etc of ntl
+ /utils                 # contains helper functions and model for the Added code from the project work
+                     
+ evaluating_models.ipynb  # compares different models from project work and BOSCH LOE
+ inspecting_dataset.ipynb # inspecting the features with dimensionality reduction method and rescaling of the features
 
 
 
-## for LOE etc. 
+## for LOE  
 
 run :
 python Launch_Exps.py --config-file config_fmnist.yml   --contamination 0.0 --assumed-contamination 0.0 --dataset-name fmnist  --trainset_fraction
 
-if you want different - loss functions etc change the  config file
+if you want different loss functions etc. change the  config file
 
-- it saves contamination ration in a diffenrent folder, to concatenate them run the function:
+- it saves the contaminated results in a different folder, to concatenate them run the function:
 
 concatenate_allresults(MODEL_RESULT_PATH:str,modelname:str='loe_hard',assumed_contamination:float=0.0,n_runs:int=5)
 from
 LatentOE-AD/Additional_Code_BULE/loe_utils/helperfunctions.py
 
 
-for the multirun bash scripts run:
+for the multi-run bash scripts run:
 
- bash Additional_Code_BULE/training_scripts/run_multiple.sh
+bash Additional_Code_BULE/training_scripts/run_multiple.sh
 
 
 
@@ -47,7 +44,7 @@ for the multirun bash scripts run:
 - downsample dataset with: Extract_img_features import downsample_dataset on the extraced features
 
 
-## for VT autencoder etc. 
+## for project work autencoder etc. 
 run training_scripts/ training_main_*.py
 
 - it automatically saves the pickle files of the results in a folder under RESULTS/
