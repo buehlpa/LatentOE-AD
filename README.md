@@ -7,25 +7,6 @@ This Repository is **not maintained!**
 
 The full work can be found on https://github.com/buehlpa/LatentOE-FUAD/blob/main/Specialization_Project2_buehlpa1_MSE_DS.pdf
 
-
-
-## Adding contamination to the data:
-![image](https://github.com/buehlpa/LatentOE-FUAD/assets/64488738/99bbded6-772d-4f2b-a556-298aa163102d)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Comments on the CODE
 
 most of the changes to the original repo are in /Additional_CODE_BULE 
